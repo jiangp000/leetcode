@@ -25,3 +25,18 @@
 - 用时间换空间
 - 264 Ugly Number II
 - 三指针  2 3 5  
+## 2021.2.5
+- 105 ConstructBinaryTreefromPreorderandInorderTraversal
+- 知道前序  和中序 求树
+## 2021.2.6
+- 905. Sort Array By Parity
+- 偶数放前面 奇数放后面  傻瓜题
+- 922  SortArrayByParityII
+- 偶数放偶数位，奇数放奇数位 傻瓜题 
+- 98 ValidateBinarySearchTree98
+- 中序结果看是否为升序   傻瓜题目
+**全局变量或者是静态变量需要自己手动的进行初始化**
+- 107. Binary Tree Level Order Traversal II
+-  Collesctions.reverse() queue.remove() queue.poll()(唯一的区别 remove 抛异常 poll 是null)
+- 和102题  一模一样 
+- 维持 before 和 after 两个数组，一层一层的进行搜索  
