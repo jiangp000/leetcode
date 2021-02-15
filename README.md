@@ -68,4 +68,14 @@
 
 ## 2021.2.14
 - KMP 算法，待续
-## 
+## 2021.2.15
+- 57 插入区间，再排序 和56题是一样的
+- 学习到了二维数组的排序 以及 自定义数组排序
+```        int[][] result={{1,4,5,2},{2,5,76},{1,3,6},{7,8,9},{10,3}};
+        Arrays.sort(result, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                if(o1[0] == o2[0]) return o1[1] - o2[1];
+                return o1[0] - o2[0];
+            }
+        });```
