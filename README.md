@@ -79,3 +79,18 @@
                 return o1[0] - o2[0];
             }
         });```
+## 2021.2.16
+- 28 KMP 算法
+- 242 判断两个字符串是否为字谜
+- 我们排序之后 比较是否相等就可以 学到了 t.toCharArray()  数组比较相等 Arrays.equal(s1,s2)
+- 220 一个字符串中两个索引 i j 绝对值小于 t num[i],num[j] 绝对值小于 k
+- 暴力搜索会超时，我们使用 treeset，维持一个k的滑动窗口，在set中 调用floor(num[i]) 和 ceiling(num[i])
+- 179 组成最大的数字
+//        数字转化为 String 一共有三种方法
+//        1： 3 +“”，这个效率是最低的，不推荐使用
+//        2： String.valueOf(t) ,当 t 为null的时候，结果也是“null”
+//        3： t.toString() 当t为null的时候，会抛出 nullpointerexception
+- 274 HINDEX 指数
+- 先排序，看最大的数字有几个 [len - i -1 ] > i {i++} 
+- hashmap的排序，直接对key进行排序就可以，之后再用get方法访问
+- List<Interger> result = new ArrayList<>(hashmap.keyset)
