@@ -94,3 +94,11 @@
 - 先排序，看最大的数字有几个 [len - i -1 ] > i {i++} 
 - hashmap的排序，直接对key进行排序就可以，之后再用get方法访问
 - List<Interger> result = new ArrayList<>(hashmap.keyset)
+
+## 2021.2.17
+- 349 两个数组的交集
+- 我们使用 Set
+- 先排序，然后如果相等，就加入数组 
+- list 转为 数组[]   result.stream().mapToInt(Integer::intValue).toArray()
+- 350  两个数组的交集
+- 我们使用arraylist
