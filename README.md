@@ -102,3 +102,11 @@
 - list 转为 数组[]   result.stream().mapToInt(Integer::intValue).toArray()
 - 350  两个数组的交集
 - 我们使用arraylist
+
+## 2021.2.18
+- 976 周长最大的三角形
+- 先排序，然后从大到小排列
+
+## 2021.2.19 
+- 704 二分法查找
+while(i <= j) 
