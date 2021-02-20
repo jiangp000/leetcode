@@ -112,3 +112,21 @@
 while(i <= j) 
 
 ## 2021.2.20
+- 12题，将数字转化为罗马数字
+- 软编码的形式，进行除 和 减 （对应）
+- 13题，罗马正数转为数字
+- 用hashmap 的 contains （分为两个和一个的）
+- 69题 开平方根 
+
+```java
+        int answer = (int) Math.exp(0.5 * Math.log(x));
+        return  (long) (answer + 1) * (answer + 1) <= x ? answer + 1 : answer;
+```
+- 50题目，POW（x，n）
+-  使用了快速幂的方法
+- 67 二进制的加法
+- 使用了 Stringbuilder 的reverse，append 和tostring方法 
+- Stringbuilder 和Streingbuffer的 区别
+1 ：stringbuffer 是线程安全的，因为他被synochized 修饰，而builder 是不安全的
+2 ：缓冲区，buffer 是从缓冲区中的toStringcache构造一个，而builder 是直接赋值一个数组
+3 ：性能，很显然，builder没有同步方法，所以性能会更好一点   
