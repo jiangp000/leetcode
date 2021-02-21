@@ -130,3 +130,17 @@ while(i <= j)
 1 ：stringbuffer 是线程安全的，因为他被synochized 修饰，而builder 是不安全的
 2 ：缓冲区，buffer 是从缓冲区中的toStringcache构造一个，而builder 是直接赋值一个数组
 3 ：性能，很显然，builder没有同步方法，所以性能会更好一点   
+  
+## 2021.2.21
+- 126 单个数字 使用异或运算 
+- 46 全排列  
+```java
+        for(int i = first; i < N; i++){
+            Collections.swap(temp,i,first);
+            backTrace(N,temp,result,first + 1);
+            Collections.swap(temp,i,first);
+        }
+```
+
+- 169题目 将数字转化为AZ
+701 是 ZY，由于这里的 0 是由26 代替，所以我们先除以1，再进行计算 
