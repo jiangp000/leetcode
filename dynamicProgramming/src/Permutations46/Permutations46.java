@@ -35,6 +35,7 @@ class Solution {
         for(int num : nums){
             temp.add(num);
         }
+
         int N = nums.length;
         backTrace(N,temp,result,0);
 
