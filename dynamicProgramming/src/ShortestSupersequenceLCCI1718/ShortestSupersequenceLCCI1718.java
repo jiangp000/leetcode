@@ -3,6 +3,7 @@ package ShortestSupersequenceLCCI1718;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 public class ShortestSupersequenceLCCI1718 {
     public static void main(String[] args) {
@@ -27,10 +28,16 @@ class Solution {
                 temp.add(j - 1);
                 result.add(temp);
                 if(smallNum.containsKey(big[i])){
-                    nums --;
-                    smallNum.put(big[i],1);
+                    nums = 0;
+                    j = i + 1;
+//                    int[] mykey = smallNum.keySet().;
+                    List<Integer> mykey =new ArrayList<>(smallNum.keySet());
+                    for(int k = 0; k < mykey.size(); k++){
+                        smallNum.put(mykey.get(k),1);
+                    }
                 }
                 i++ ;
+                continue;
 
             }
             //
@@ -43,9 +50,13 @@ class Solution {
             }
             j++;
         }
-        for(List<Integer> Q : result){
-            System.out.println(Q);
+        if(result.size() == 0) return new int[0];
+        int minLen = Integer.MAX_VALUE,index = 0;
+
+        for(int p = 0; p < result.size(); p++){
+            index = minLen > (result.get(p).get(1) - result.get(p).get(0) ) ? p : index;
+            minLen = Math.min(minLen,result.get(p).get(1) - result.get(p).get(0) );
         }
-        return null;
+        return new int[]{result.get(index).get(0),result.get(index).get(1)};
     }
 }
