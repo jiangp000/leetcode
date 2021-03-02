@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Offer59I {
     public static void main(String[] args) {
         Solution test = new Solution();
-        int[] num = { 3,3,4,10};
-        int k = 5;
+        int[] num = { 1,3,-1,-3,5,3,6,7};
+        int k = 3;
         test.maxSlidingWindow(num,k);
     }
 }
@@ -39,6 +39,9 @@ class Solution {
                 res ++;
                 j ++;
             }
+        }
+        for(int m : result){
+            System.out.println(m);
         }
         return result;
     }
