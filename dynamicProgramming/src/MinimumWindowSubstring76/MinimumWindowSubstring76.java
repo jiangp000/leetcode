@@ -73,6 +73,5 @@ class Solution {
         }
         if(res == Integer.MAX_VALUE) return  "";
         return s.substring(resIndex[0],resIndex[1]);
-
     }
 }
