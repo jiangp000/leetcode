@@ -31,7 +31,6 @@ public class RealMinimumWindowSubstring76 {
 
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        PriorityQueue
         Deque<Integer> myqueue = new LinkedList<>();
         int[] result = new int[nums.length - k + 1];
         int index = 0;
