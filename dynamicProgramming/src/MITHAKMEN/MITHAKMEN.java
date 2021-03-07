@@ -1,5 +1,8 @@
 package MITHAKMEN;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class MITHAKMEN {
 
     public static void count(int m) {
@@ -10,6 +13,8 @@ public class MITHAKMEN {
     }
 
     public static void main(String[] args) {
+        Queue<Integer> myqueue = new LinkedList<>();
+        myqueue.poll();
         MITHAKMEN tets = new MITHAKMEN();
         count(1024);
     }
