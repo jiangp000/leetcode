@@ -23,3 +23,13 @@ public class chooseSorting implements sort{
         System.out.println(Arrays.toString(arr));
     }
 }
+
+// 选择排序也是不稳定的，5 3 5 4 2
+// 第一个 5，会被换到 2的后边来
+
+//冒泡排序是稳定的
+//插入排序也是稳定的
+//归并排序也是稳定的
+//快排是不稳定的
+//堆排序也是稳定的
+
