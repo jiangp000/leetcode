@@ -82,8 +82,10 @@ public class MergetSort {
 //		System.out.println("tempLeft : " + tempLeft + "---right : " + right);
         while (tempLeft <= right) {
             arr[tempLeft] = temp[t];
+            System.out.print(temp[t]+" ");
             t++;
             tempLeft++;
         }
+        System.out.println();
     }
 }

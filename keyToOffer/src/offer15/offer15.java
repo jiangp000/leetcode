@@ -1,6 +1,9 @@
 package offer15;
 
 public class offer15 {
+    public static void main(String[] args) {
+
+    }
 }
 class Solution {
     // you need to treat n as an unsigned value
