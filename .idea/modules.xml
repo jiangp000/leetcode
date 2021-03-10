@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" filepath="$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/keyToOffer/keyToOffer.iml" filepath="$PROJECT_DIR$/keyToOffer/keyToOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myThread/myThread.iml" filepath="$PROJECT_DIR$/myThread/myThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
     </modules>
