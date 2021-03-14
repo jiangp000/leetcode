@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" filepath="$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inputAndOutput/inputAndOutput.iml" filepath="$PROJECT_DIR$/inputAndOutput/inputAndOutput.iml" />
       <module fileurl="file://$PROJECT_DIR$/keyToOffer/keyToOffer.iml" filepath="$PROJECT_DIR$/keyToOffer/keyToOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/myThread/myThread.iml" filepath="$PROJECT_DIR$/myThread/myThread.iml" />
