@@ -1,0 +1,26 @@
+pipeline {
+agent any
+
+stages {
+stage('pull code') {
+steps {
+checkout([$class: 'GitSCM', branches: [[name: '*/dev']], extensions: [], userRemoteConfigs: [[credentialsId: 'd70fb24e-4976-46d7-8c7e-cb6e860b658b', url: 'http://212.129.149.40/181250171_smartcoding/frontend-smartcodingkg.git']]])
+
+}
+}
+stage('npm install') {
+steps {
+nodejs('nodejs12'){
+sh '''
+cnpm install
+'''
+}
+}
+}
+
+stage('NPM package') {
+steps {
+echo 'mv from front to back'
+mv /var/lib/jenkins/workspace/front_web/public/*    /var/lib/jenkins/workspace/web_maven_4/src/main/resources/static
+
+
