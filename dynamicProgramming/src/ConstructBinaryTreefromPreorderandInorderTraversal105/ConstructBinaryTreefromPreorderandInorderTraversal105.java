@@ -35,7 +35,7 @@ class Solution {
     }
 
     public TreeNode helper(int prestart,int instart,int inend,int[] preorder,int[] inoder){
-        if(prestart >inoder.length -1 || instart >inend) return null;
+        if(prestart > inoder.length -1 || instart >inend) return null;
 
         TreeNode root =new TreeNode(preorder[prestart]);
 

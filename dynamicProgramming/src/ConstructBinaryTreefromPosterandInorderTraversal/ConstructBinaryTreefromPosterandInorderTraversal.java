@@ -32,13 +32,13 @@ public class  ConstructBinaryTreefromPosterandInorderTraversal {
     }
 
 }
-    class Solution {
-        public TreeNode buildTree(int[] inOrder,int[] posterOrder) {
-            return helper(0, posterOrder.length - 1, 0, posterOrder.length - 1 , inOrder,posterOrder );
-        }
+class Solution {
+    public TreeNode buildTree(int[] inOrder,int[] posterOrder) {
+        return helper(0, posterOrder.length - 1, 0, posterOrder.length - 1 , inOrder,posterOrder );
+    }
 
 
-// 我们还是先从后续遍历来看，后续遍历的最后一个是 3 ，也就是根节点就是 3 ，我们要找到3 在中序遍历的位置
+    // 我们还是先从后续遍历来看，后续遍历的最后一个是 3 ，也就是根节点就是 3 ，我们要找到3 在中序遍历的位置
 //然后把 3 之前的设置为子节点，3 之后设置为右边的节点
 //    中序遍历 inorder = [9,3,15,20,7]
 //    后序遍历 postorder = [9,15,7,20,3]
@@ -49,8 +49,8 @@ public class  ConstructBinaryTreefromPosterandInorderTraversal {
                             int poststart, int postend, int[] inOrder, int[] postOrder){
         if(instart > inend || postend < 0 || poststart > inOrder.length - 1) return null;
         int value = postOrder[postend];
-        TreeNode root = new TreeNode(postOrder[poststart]);
-        int index = 0;
+        TreeNode root = new TreeNode(postOrder[postend]);
+        int index = postOrder[postend];
         for(int i = 0; i < inOrder.length; i++){
             if(inOrder[i] ==value) {
                 index = i;
