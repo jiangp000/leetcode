@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/inputAndOutput/inputAndOutput.iml" filepath="$PROJECT_DIR$/inputAndOutput/inputAndOutput.iml" />
       <module fileurl="file://$PROJECT_DIR$/keyToOffer/keyToOffer.iml" filepath="$PROJECT_DIR$/keyToOffer/keyToOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matrix/matrix.iml" filepath="$PROJECT_DIR$/matrix/matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/mianshi/mianshi.iml" filepath="$PROJECT_DIR$/mianshi/mianshi.iml" />
       <module fileurl="file://$PROJECT_DIR$/myThread/myThread.iml" filepath="$PROJECT_DIR$/myThread/myThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/segmentTree/segmentTree.iml" filepath="$PROJECT_DIR$/segmentTree/segmentTree.iml" />
