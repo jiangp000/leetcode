@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
       <module fileurl="file://$PROJECT_DIR$/breadthFirstSearch/breadthFirstSearch.iml" filepath="$PROJECT_DIR$/breadthFirstSearch/breadthFirstSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/depthFistSearch/depthFistSearch.iml" filepath="$PROJECT_DIR$/depthFistSearch/depthFistSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" filepath="$PROJECT_DIR$/dynamicProgramming/dynamicProgramming.iml" />
