@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/myThread/myThread.iml" filepath="$PROJECT_DIR$/myThread/myThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/segmentTree/segmentTree.iml" filepath="$PROJECT_DIR$/segmentTree/segmentTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/xuShuiChi/xuShuiChi.iml" filepath="$PROJECT_DIR$/xuShuiChi/xuShuiChi.iml" />
     </modules>
