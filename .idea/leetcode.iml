@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Memoization" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SlidingWindow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/backTracking" isTestSource="false" />
@@ -32,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/tencent" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/xuShuiChi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
