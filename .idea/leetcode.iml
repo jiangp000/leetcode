@@ -2,7 +2,37 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Memoization" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SlidingWindow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/backTracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/backTracking/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/binarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/binarySearch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/breadthFirstSearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/breadthFirstSearch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/depthFistSearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/depthFistSearch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/design" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/design/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/designPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/designPattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dynamicProgramming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/huawei" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/inputAndOutput" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/keyToOffer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/keyToOffer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/matrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mianshi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myThread" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/segmentTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tencent" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xuShuiChi" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
