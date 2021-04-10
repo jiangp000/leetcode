@@ -328,5 +328,14 @@ while(i <= j)
 - 能否赢取比赛~
  
 
+## 2021.4.9
+- 终于把编辑距离搞定了~~  开心 
+
+
+
+## 2021.4.10
+- 做了每日一题目，丑数，范围是【-MAX, MAX -1】，其中 0 是false， 1 是 true
+- 合并K 个有序链表，使用priorityQueue 
+- PriorityQueue<ListNode> q = new PriorityQueue<>((x,y)->x.val - y.val);
 
 

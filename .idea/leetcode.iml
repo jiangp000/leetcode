@@ -17,7 +17,6 @@
       <sourceFolder url="file://$MODULE_DIR$/design/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/designPattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/designPattern/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/dynamicProgramming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/huawei" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/inputAndOutput" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/keyToOffer" isTestSource="false" />
@@ -32,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/xuShuiChi" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DP/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dynamicProgramming/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
