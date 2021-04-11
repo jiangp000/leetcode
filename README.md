@@ -337,5 +337,13 @@ while(i <= j)
 - 做了每日一题目，丑数，范围是【-MAX, MAX -1】，其中 0 是false， 1 是 true
 - 合并K 个有序链表，使用priorityQueue 
 - PriorityQueue<ListNode> q = new PriorityQueue<>((x,y)->x.val - y.val);
+- 现在来膜拜大神，有一个东南大学的！！！  28名，太强了！！！！  1700+ 的题目，是真的强
 
+
+## 2021.4.11
+- 位运算的专题
+- 数组中出现 n / 2的元素， 用随机发
+- 4的幂
+- hashmap 做的DNA序列
+- 丢失的数字，使用加法，看和差多少 
 
