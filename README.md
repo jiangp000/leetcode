@@ -370,3 +370,7 @@ while(i <= j)
 - 返回左右最大的一个 + 1
 - ans也就是在求深度的中间添加了一个 ans = Math.max(ans, left + right + 1)
 
+
+## 2021.4.15
+- 进行了美团的二面，累死了
+- 今天了解了priorityqueue 默认是最小堆~ 加油！！！！
