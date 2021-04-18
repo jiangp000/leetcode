@@ -11,4 +11,5 @@ public class diyigejiafa {
             System.out.println(a + b);
         }
     }
+
 }
