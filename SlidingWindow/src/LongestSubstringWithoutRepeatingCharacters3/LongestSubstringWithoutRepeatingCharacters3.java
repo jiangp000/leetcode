@@ -3,6 +3,9 @@ package LongestSubstringWithoutRepeatingCharacters3;
 import java.util.HashMap;
 
 public class LongestSubstringWithoutRepeatingCharacters3 {
+    public static void main(String[] args) {
+        System.out.println("jiang jiang is a great ");
+    }
 }
 
 

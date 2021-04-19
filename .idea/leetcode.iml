@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/DP/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/dynamicProgramming/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/stack/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SlidingWindow/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
