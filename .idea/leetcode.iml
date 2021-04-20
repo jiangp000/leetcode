@@ -5,15 +5,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/backTracking/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/binarySearch/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/breadthFirstSearch/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/depthFistSearch/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/design/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/designPattern/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/keyToOffer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DP/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/dynamicProgramming/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/stack/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SlidingWindow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/huawei/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mianshi/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
