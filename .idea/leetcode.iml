@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/DP/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/huawei/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mianshi/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sorting/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
