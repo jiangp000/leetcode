@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BitManipulation/BitManipulation.iml" filepath="$PROJECT_DIR$/BitManipulation/BitManipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Brainteaser/Brainteaser.iml" filepath="$PROJECT_DIR$/Brainteaser/Brainteaser.iml" />
       <module fileurl="file://$PROJECT_DIR$/MAP/MAP.iml" filepath="$PROJECT_DIR$/MAP/MAP.iml" />
       <module fileurl="file://$PROJECT_DIR$/UNION/UNION.iml" filepath="$PROJECT_DIR$/UNION/UNION.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZUOshen/ZUOshen.iml" filepath="$PROJECT_DIR$/ZUOshen/ZUOshen.iml" />
